@@ -4,6 +4,12 @@
     padding: 0;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 body {
     background-color: #ADD8E6;
 }
@@ -16,3 +22,22 @@ h1 {
     text-transform: uppercase;
     color: white;
 }
+
+.contenitore {
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.carta {
+    width: 20%;
+    height: 270px;
+    background-image: url('../img/pattern.png');
+    background-size: 100%;
+    background-position: center ;
+    border-radius: 20px;
+    border: 1px solid grey;
+    margin:10px 5% 20px 0 ;
+    float: left;
+}
+
