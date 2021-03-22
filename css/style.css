@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Fredoka One', cursive;
 }
 
 .clearfix::after {
@@ -23,6 +24,17 @@ h1 {
     color: white;
 }
 
+section > div {
+    display: none;
+}
+
+p, 
+section > div{
+    position: absolute;
+    bottom: 5%;
+    left: 25%;
+    font-size: 20px;
+}
 .contenitore {
     position: relative;
     width: 60%;
@@ -30,6 +42,8 @@ h1 {
 }
 
 .carta {
+    position: relative;
+    float: left;
     width: 20%;
     height: 270px;
     background-image: url('../img/pattern.png');
@@ -37,7 +51,152 @@ h1 {
     background-position: center ;
     border-radius: 20px;
     border: 1px solid grey;
-    margin:10px 5% 20px 0 ;
-    float: left;
+    margin:10px 2.5% 20px 2.5% ;
 }
 
+.seipallone {
+    color: #E61986;
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-image: url('../img/noun_air_balloon_3134741.png');
+}
+
+.novetrattore:hover {
+    color: #E67919;
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-image: url('../img/noun_Tractor_3134797.png');
+}
+.novetrattore:hover #trattore1 {
+    display: block;
+}
+
+.unopallone:hover {
+    color: #E61986;
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-image: url('../img/noun_air_balloon_3134741.png');
+}
+.unopallone:hover #pallone1 {
+    display: block;
+}
+
+.duebici:hover {
+    color: #49ff86;
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-image: url('../img/noun_Bicycle_3134821.png');
+}
+.duebici:hover #bici1 {
+    display: block;
+}
+
+.trebarca:hover {
+    color: #17f5f5;
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-image: url('../img/noun_Cruise_Ship_3134824.png');
+}
+.trebarca:hover #barca1 {
+    display: block;
+}
+
+.quattrotrattore:hover {
+    color: #E67919;
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-image: url('../img/noun_Tractor_3134797.png');
+}
+.quattrotrattore:hover #trattore2 {
+    display: block;
+}
+
+.cinquesottomarino:hover {
+    color: #2111ff;
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-image: url('../img/noun_Submarine_3134738.png');
+}
+.cinquesottomarino:hover #sottomarino1 {
+    display: block;
+}
+
+.settebici:hover {
+    color: #49ff86;
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-image: url('../img/noun_Bicycle_3134821.png');
+}
+.settebici:hover #bici2 {
+    display: block;
+}
+
+.ottotram:hover {
+    color: #f80303;
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-image: url('../img/noun_Tram_3134750.png');
+}
+.ottotram:hover #tram1 {
+    display: block;
+}
+
+.diecitram:hover {
+    color: #f80303;
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-image: url('../img/noun_Tram_3134750.png');
+}
+.diecitram:hover #tram2 {
+    display: block;
+}
+
+.undicibarca:hover {
+    color: #17f5f5;
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-image: url('../img/noun_Cruise_Ship_3134824.png');
+}
+.undicibarca:hover #barca2 {
+    display: block;
+}
+
+.dodicisottomarino:hover {
+    color: #2111ff;
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-image: url('../img/noun_Submarine_3134738.png');
+}
+.dodicisottomarino:hover #sotomarino2 {
+    display: block;
+}
+
+footer {
+    font-size: 22px;
+    margin-top: 20px;
+    text-align: center;
+}
